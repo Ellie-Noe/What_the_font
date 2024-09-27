@@ -1,0 +1,126 @@
+/*body*/
+body{
+    margin: 0;
+    background-color: #160700;
+    padding: 0;
+}
+/*background*/
+.img1{
+    display: flex;
+    height: 1700px;
+    margin: auto;
+    width: auto;
+    filter: blur(2px); /*blur the background*/
+    position: relative;
+}
+.title{
+    font-family: 'Red Hat Display', sans-serif;
+    position: absolute; /*the text will stay on the poster*/
+    display: flex;
+    font-size: 30px;
+    letter-spacing: 5px;
+    color: #9191c3;
+    justify-content: center;
+    text-align: center;
+    top: 5px;
+    left: 0;
+    right: 0;
+}
+/*the first part of the lyrics*/
+.first{
+    font-family: 'Red Hat Display', sans-serif;
+    position: absolute; /*the text will stay on the poster*/
+    font-size: 15px;
+    font-weight: normal;
+    letter-spacing: 3px;
+    color: #9191c3;
+    justify-content: center;
+    text-align: center;
+    top: 50px;
+    left: 0;
+    right: 0;
+}
+/*the lyrics inside the brackets*/
+.first span{
+    font-family: 'Eb Garamond', sans-serif;
+    font-style: italic;
+    font-weight: normal;
+}
+/*second part*/
+.second{
+    font-family: 'Caveat', sans-serif;
+    position: absolute; /*the text will stay on the poster*/
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: #9191c3;
+    justify-content: center;
+    text-align: center;
+    top: 62%;
+    left: 0;
+    right: 0;
+}
+/*third part*/
+.third{
+    font-family: 'Eb Garamond', sans-serif;
+    position: absolute; /*the text will stay on the poster*/
+    font-weight: normal;
+    font-style: italic;
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: #9191c3;
+    justify-content: center;
+    text-align: center;
+    top: 80%;
+    left: 0;
+    right: 0;
+}
+/*the lyrics inside the brackets*/
+.third span{
+    font-family: 'Red Hat Display', sans-serif;
+    font-style: italic;
+    font-size: 13px;
+}
+/*last part*/
+.fourth{
+    font-family: 'Red Hat Display', sans-serif;
+    position: absolute; /*the text will stay on the poster*/
+    font-style: italic;
+    font-size: 15px;
+    letter-spacing: 3px;
+    color: #9191c3;
+    justify-content: center;
+    text-align: center;
+    top: 1280px;
+    left: 0;
+    right: 0;
+}
+/*the lyrics inside the brackets*/
+.fourth span{
+    font-family: 'Eb Garamond', sans-serif;
+    font-style: italic;
+    font-size: 15px;
+}
+/*cd player image*/
+.img2{
+    position: absolute; /*the image will stay on the poster*/
+    filter: blur(.7px);
+    top: 1500px;
+    left: 350px;
+    width: 300px;
+    height: auto;
+}
+/*youtube video*/
+.youtube{
+    position: absolute; /*the video will stay on the poster*/
+    top: 1430px;
+    left: 750px;
+}
+/*spotify link text*/
+.spotify{
+    position: absolute; /*the text will stay on the poster*/
+    top: 1625px;
+    left: 380px;
+    font-family: 'Red Hat Display', sans-serif;
+    color: #36454F;
+    letter-spacing: 2px;
+}
